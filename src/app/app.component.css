@@ -1,4 +1,5 @@
-:root {
+
+::ng-deep :root {
     --primary-color: #094B72;
     --secondary-color: #C3E8F1;
     --light-blue-color: #F2F7FF;
@@ -11,33 +12,33 @@
   }
   @font-face {
     font-family: Plus_Jakarta;
-    src: url('./fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf');
+    src: url('../assets/css/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf');
   }
   @font-face {
     font-family: Playfair_Display;
-    src: url('./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+    src: url('../assets/css/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
   }
   @font-face {
     font-family: 'Poppins';
-    src: url('./fonts/Poppins/Poppins-Regular.ttf');
+    src: url('../assets/css/fonts/Poppins/Poppins-Regular.ttf');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'Poppins';
-    src: url('./fonts/Poppins/Poppins-Light.ttf');
+    src: url('../assets/css/fonts/Poppins/Poppins-Light.ttf');
     font-weight: lighter;
     font-style: normal;
   }
   @font-face {
     font-family: 'Poppins';
-    src: url('./fonts/Poppins/Poppins-Bold.ttf');
+    src: url('../assets/css/fonts/Poppins/Poppins-Bold.ttf');
     font-weight: bold;
     font-style: normal;
   }
   @font-face {
     font-family: 'Poppins';
-    src: url('./fonts/Poppins/Poppins-Medium.ttf');
+    src: url('../assets/css/fonts/Poppins/Poppins-Medium.ttf');
     font-weight: 500;
     font-style: normal;
   }
@@ -52,7 +53,7 @@
   /* end header */
   /* start hero */
   #hero {
-    background-image: url('../images/hero-background.png');
+    background-image: url('../assets/images/hero-background.png');
     background-repeat: no-repeat;
     background-position: right top;
   }
@@ -109,7 +110,7 @@
   /* end services */
   /* start records */
   #records {
-    background-image: url('../images/bg-pattern.png');
+    background-image: url('../assets/images/bg-pattern.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
